@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
-    <Transitions />
+    <Mixin />
   </div>
 </template>
 
 <script>
-import Transitions from "./components/Transitions.vue";
+import Mixin from "./components/Mixin.vue";
 
 export default {
   name: "App",
   components: {
-    Transitions,
+    Mixin,
   },
 };
 </script>
